@@ -1,0 +1,10 @@
+applications:
+- path: JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: democatalog-assets-details
+  host: democatalog-assets-details
+  disk_quota: 1024M
+  services:
+  - democatalog-assets-details-cloudantNoSQLDB
