@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>DemoCatalog - Details Page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+
+<style>
+@font-face {
+	font-family: OpenSans-Semibold;
+	src: url(fonts/OpenSans-Semibold.ttf);
+}
+
+@font-face {
+	font-family: OpenSans-Bold;
+	src: url(fonts/OpenSans-Bold.ttf);
+}
+
+@font-face {
+	font-family: OpenSans-Regular;
+	src: url(fonts/OpenSans-Regular.ttf);
+}
+
+.header-link a {
+	font-size: 14px;
+	color: #ffffff;
+	font-family: OpenSans-Semibold;
+	float: right;
+}
+
+.header-container {
+	padding-right: 100px;
+	background-color: #075DAA;
+	vertical-align: middle;
+}
+
+.main-tittle {
+	float: left;
+	font-size: 36px;
+	color: #005FA6;
+	font-family: OpenSans-Regular;
+	padding-top: 50px;
+}
+
+.main-link {
+	padding-top: 5px;
+}
+
+.main-link a {
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #039BD2;
+	border: 4px;
+	Border-Radius: 10px;
+	color: #FFFFFF;
+	font-family: OpenSans-Bold;
+	font-size: 9px;
+}
+
+.main-center {
+	margin-top: 15px;
+	padding-top: 10px;
+	padding-top: 10px;
+}
+
+.row-content label {
+	font-size: 20px;
+	color: #005FA6;
+	font-family: OpenSans-Semibold;
+	padding-bottom: 10px;
+}
+
+.row-content p {
+	font-size: 14px;
+	color: #737373;
+	font-family: OpenSans-Regular;
+	padding-bottom: 10px;
+}
+
+.main-left-col {
+	padding-top: 20px;
+	padding-right: 40px;
+}
+</style>
+</head>
+<body style="background-color: #f2f2f2;">
+	<div class="container-fluid">
+		<div class="row header-container">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-10 col-sm-10 col-xs-10">
+						<img class="" src="images/logo.png">
+					</div>
+
+					<div class="col-md-1 col-sm-1 col-xs-1 header-link">
+						<a href="#second">Contact</a>
+					</div>
+					<div class="col-md-1 col-sm-1 col-xs-1 header-link">
+						<a href="#second">Log out</a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<div class="row">
+			<div class="container">
+				<div class="row main-tittle">Smart Irrigation App</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="container">
+				<div class="row main-link">
+					<a href="#second">PRODUCTS</a> <a href="#second">IOT</a> <a
+						href="#second">MOBILE</a> <a href="#second">DEVOPS</a>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="row main-center-row">
+			<div class="container main-center">
+				<div class="row main-link">
+					<div class="col-md-6 col-sm-6 col-xs-6 main-left-col">
+						<div class="row row-content">
+							<label>Challenge</label>
+							<p>Market problem is water conservation with optimally
+								irrigating the crop and enhancing the crop productivity. Over-
+								or under-watering :- adversily affects crop yields and wastes
+								water (think dry/drought areas). Farmers usually follow an
+								irrigation schedule, whick is manually decided based on
+								knowledge.</p>
+						</div>
+						<div class="row row-content">
+							<label>Solution</label>
+							<p>Smart irrigation system aims to address the problem with
+								over / uns=der watering using IoT device to monitor crop profile
+								attributes such as humidity, moisture content and use edge
+								computing devices to capture sensor data and determine the
+								optimal irrigation schedule. Historical Irrigation patterns for
+								different croops can be used for the future, which is more
+								manual & based on farmers knowledge or experiance in todays
+								world</p>
+						</div>
+						<div class="row row-content">
+							<label>Delivery</label>
+							<p>Applicatiion architecture uses Bluemix IoT foundation
+								platform. MVC - Architecture drafted by Manoharan Ramasamy iin
+								the architecture overview. Communication protocol over REST &
+								MQTT with Edge computing layer and IoT sensor devices. Use of
+								relational data store. Plantation & Irrigation schedule, Farms &
+								Crops information. Sensors integrated with the application
+								runtime. Arduino & Edge computing application platforms. Bluemix
+								DevOps pipeline for biuls & deployment. GIT Hub for source code
+								version management. Eclipse IDE for application build.</p>
+						</div>
+						<div class="row row-content">
+							<label>Resources</label>
+							<p>blah blah</p>
+						</div>
+
+					</div>
+					<div class="col-md-6 col-sm-6 col-xs-6"
+						style="vertical-align: middle;">
+						<img src="images/smart_irrigation.png">
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+</body>
+</html>
