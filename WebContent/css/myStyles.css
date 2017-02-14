@@ -162,7 +162,7 @@ padding-left: 100px;
 .label-second-paragraph-image img{
 	position: absolute;
 }
-.label-second-paragraph-image label{
+.label-second-paragraph-image a{
 	font-size: 14px;
 	color: #ffffff;
 	font-family: OpenSans-Semibold;
