@@ -4,20 +4,10 @@
 <meta charset="ISO-8859-1">
 <title>DemoCatalog - Details Page</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
-<link rel="stylesheet"
-	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
-<script
-	src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script
-	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
-<script
-	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-
-
-
-<style>
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<script src="js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/myStyles.css">
+<style type="text/css">
 @font-face {
 	font-family: OpenSans-Semibold;
 	src: url(fonts/OpenSans-Semibold.ttf);
@@ -31,214 +21,6 @@
 @font-face {
 	font-family: OpenSans-Regular;
 	src: url(fonts/OpenSans-Regular.ttf);
-}
-
-.header-row {
-	vertical-align: middle;
-}
-
-.header-row img {
-	vertical-align: middle;
-}
-
-.header-link a {
-	font-size: 14px;
-	color: #ffffff;
-	font-family: OpenSans-Semibold;
-	float: right;
-	padding-top: 10px;
-}
-
-.header-container {
-	padding-right: 100px;
-	background-color: #075DAA;
-	vertical-align: middle;
-	padding-top: 5px;
-	padding-bottom: 5px;
-}
-
-.main-tittle {
-	float: left;
-	font-size: 36px;
-	color: #005FA6;
-	font-family: OpenSans-Regular;
-	padding-top: 50px;
-}
-
-.main-link {
-	padding-top: 5px;
-}
-
-.main-link a {
-	padding: 5px;
-	padding-left: 10px;
-	padding-right: 10px;
-	background-color: #039BD2;
-	border: 4px;
-	Border-Radius: 10px;
-	color: #FFFFFF;
-	font-family: OpenSans-Bold;
-	font-size: 9px;
-}
-
-.main-center {
-	margin-top: 15px;
-	padding-top: 10px;
-	padding-top: 10px;
-}
-
-.row-content label {
-	font-size: 20px;
-	color: #005FA6;
-	font-family: OpenSans-Semibold;
-	padding-bottom: 10px;
-}
-
-.row-content p {
-	font-size: 14px;
-	color: #737373;
-	font-family: OpenSans-Regular;
-	padding-bottom: 10px;
-}
-
-.main-left-col {
-	padding-top: 20px;
-	padding-right: 40px;
-}
-
-.image-class {
-	float: left;
-}
-
-.link-row-one {
-	padding-bottom: 40px;
-}
-
-.main-second-heading {
-	font-size: 22px;
-	color: #005FA6;
-	font-family: OpenSans-Semibold;
-	padding-bottom: 5px;
-}
-
-.image-second-one {
-	padding-top: 10px;
-}
-
-.label-second {
-	padding-top: 20px;
-}
-
-.label-second label {
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-left: 10px;
-	padding-right: 10px;
-	background-color: #009DD2;
-	border: 4px;
-	Border-Radius: 10px;
-	color: #FFFFFF;
-	font-family: OpenSans-Bold;
-	font-size: 9px;
-}
-
-.label-second-heading-mini {
-	font-size: 22px;
-	color: #005FA6;
-	font-family: OpenSans-Semibold;
-	padding-top: 10px;
-}
-
-.label-second-paragraph p {
-	font-size: 14px;
-	color: #737373;
-	font-family: OpenSans-Regular;
-	padding-right: 50px;
-}
-
-.label-second-paragraph-image {
-	padding-top: 10px;
-}
-
-.main-second {
-	padding-bottom: 300px;
-}
-
-.third-right {
-	background-color: #009DD2;
-	height: 225px;
-	padding-left: 80px;
-	padding-top: 40px;
-}
-
-.third-left {
-	background-image: url("images/rectangle_contact.png");
-	height: 225px;
-	padding-top: 40px;
-	padding-right: 40px;
-}
-
-.main-third {
-	background-color: #075DAA;
-	height: 225px;
-}
-
-.main-third-heading label {
-	font-size: 24px;
-	color: #FFFFFF;
-	font-family: OpenSans-Semibold;
-	padding-top: 10px;
-}
-
-.main-third-heading-left label {
-	font-size: 24px;
-	color: #FFFFFF;
-	font-family: OpenSans-Semibold;
-	padding-left: 5px;
-	padding-top: 10px;
-}
-
-.main-third-heading p {
-	font-size: 14px;
-	color: #ffffff;
-	font-family: OpenSans-Regular;
-	padding-left: 5px;
-}
-
-.third-image-lable {
-	padding-top: 8px;
-}
-
-.third-image-lable a {
-	font-size: 15px;
-	color: #FFFFFF;
-	font-family: OpenSans-Semibold;
-	padding-left: 10px;
-}
-
-.main-footer {
-	background-color: #2A5EAB;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-right: 15px;
-	padding-left: 15px;
-}
-
-.footer-left label {
-	font-size: 12px;
-	color: #ffffff;
-	font-family: OpenSans-Regular;
-}
-
-.footer-right label {
-	font-size: 12px;
-	color: #ffffff;
-	font-family: OpenSans-Regular;
-	float: right;
-}
-
-.main-third-left-heading label {
-	padding-left: 5px;
 }
 </style>
 </head>
@@ -317,9 +99,10 @@
 						</div>
 						<div class="row link-row-one">
 
-							<img class="" src="images/getstarted_bttn@1x.png"> <img
-								class="" src="images/demo_bttn@1x.png"> <img class=""
-								src="images/app_bttn@1x.png">
+							<img src="images/getstarted_bttn@1x.png"> <label>Get
+								Started</label> <img class="myimage" src="images/demo_bttn@1x.png">
+							<label class="lableOne">Demo</label><img class="myimageone"
+								src="images/app_bttn@1x.png"> <label class="labletwo">Application</label>
 
 						</div>
 
@@ -371,7 +154,8 @@
 										social media and online reviews from multiple sources...</p>
 								</div>
 								<div class="row label-second-paragraph-image">
-									<img src="images/Read more@1x.png">
+									<img src="images/Read more@1x.png"> <label>Read
+										more</label>
 
 								</div>
 							</div>
@@ -390,7 +174,8 @@
 										and evaluate travel. Newbusiness models continue todisrupt...</p>
 								</div>
 								<div class="row label-second-paragraph-image">
-									<img src="images/Read more@1x.png">
+									<img src="images/Read more@1x.png"> <label>Read
+										more</label>
 
 								</div>
 							</div>
@@ -410,7 +195,8 @@
 										banking...</p>
 								</div>
 								<div class="row label-second-paragraph-image">
-									<img src="images/Read more@1x.png">
+									<img src="images/Read more@1x.png"> <label>Read
+										more</label>
 
 								</div>
 							</div>

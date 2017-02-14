@@ -1,0 +1,255 @@
+@CHARSET "ISO-8859-1";
+
+
+
+.header-row {
+	vertical-align: middle;
+}
+
+.header-row img {
+	vertical-align: middle;
+}
+
+.header-link a {
+	font-size: 14px;
+	color: #ffffff;
+	font-family: OpenSans-Semibold;
+	float: right;
+	padding-top: 10px;
+}
+
+.header-container {
+	padding-right: 100px;
+	background-color: #075DAA;
+	vertical-align: middle;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.main-tittle {
+	float: left;
+	font-size: 36px;
+	color: #005FA6;
+	font-family: OpenSans-Regular;
+	padding-top: 50px;
+}
+
+.main-link {
+	padding-top: 5px;
+}
+
+.main-link a {
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #039BD2;
+	border: 4px;
+	Border-Radius: 10px;
+	color: #FFFFFF;
+	font-family: OpenSans-Bold;
+	font-size: 9px;
+}
+
+.main-center {
+	margin-top: 15px;
+	padding-top: 10px;
+	padding-top: 10px;
+}
+
+.row-content label {
+	font-size: 20px;
+	color: #005FA6;
+	font-family: OpenSans-Semibold;
+	padding-bottom: 10px;
+}
+
+.row-content p {
+	font-size: 14px;
+	color: #737373;
+	font-family: OpenSans-Regular;
+	padding-bottom: 10px;
+}
+
+.main-left-col {
+	padding-top: 20px;
+	padding-right: 40px;
+}
+
+.image-class {
+	float: left;
+}
+
+.link-row-one {
+	padding-bottom: 40px;
+}
+
+.link-row-one img {
+	position: absolute;
+}
+
+.link-row-one label {
+	font-size: 14px;
+	color: #ffffff;
+	font-family: OpenSans-Semibold;
+	position: relative;
+	top: 20px;
+	left: 55px;
+}
+
+.myimage {
+	padding-left: 80px;
+}
+
+.lableOne{
+padding-left: 100px;
+}
+
+.myimageone{
+padding-left: 100px;
+
+}
+
+.labletwo{
+padding-left: 100px;
+}
+
+.main-second-heading {
+	font-size: 22px;
+	color: #005FA6;
+	font-family: OpenSans-Semibold;
+	padding-bottom: 5px;
+}
+
+.image-second-one {
+	padding-top: 10px;
+}
+
+.label-second {
+	padding-top: 20px;
+}
+
+.label-second label {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #009DD2;
+	border: 4px;
+	Border-Radius: 10px;
+	color: #FFFFFF;
+	font-family: OpenSans-Bold;
+	font-size: 9px;
+}
+
+.label-second-heading-mini {
+	font-size: 22px;
+	color: #005FA6;
+	font-family: OpenSans-Semibold;
+	padding-top: 10px;
+}
+
+.label-second-paragraph p {
+	font-size: 14px;
+	color: #737373;
+	font-family: OpenSans-Regular;
+	padding-right: 50px;
+}
+
+.label-second-paragraph-image {
+	padding-top: 10px;
+}
+
+.label-second-paragraph-image img{
+	position: absolute;
+}
+.label-second-paragraph-image label{
+	font-size: 14px;
+	color: #ffffff;
+	font-family: OpenSans-Semibold;
+	position: relative;
+	top: 10px;
+	left: 15px;
+}
+
+
+
+.main-second {
+	padding-bottom: 300px;
+}
+
+.third-right {
+	background-color: #009DD2;
+	height: 225px;
+	padding-left: 80px;
+	padding-top: 40px;
+}
+
+.third-left {
+	background-image: url("images/rectangle_contact.png");
+	height: 225px;
+	padding-top: 40px;
+	padding-right: 40px;
+}
+
+.main-third {
+	background-color: #075DAA;
+	height: 225px;
+}
+
+.main-third-heading label {
+	font-size: 24px;
+	color: #FFFFFF;
+	font-family: OpenSans-Semibold;
+	padding-top: 10px;
+}
+
+.main-third-heading-left label {
+	font-size: 24px;
+	color: #FFFFFF;
+	font-family: OpenSans-Semibold;
+	padding-left: 5px;
+	padding-top: 10px;
+}
+
+.main-third-heading p {
+	font-size: 14px;
+	color: #ffffff;
+	font-family: OpenSans-Regular;
+	padding-left: 5px;
+}
+
+.third-image-lable {
+	padding-top: 8px;
+}
+
+.third-image-lable a {
+	font-size: 15px;
+	color: #FFFFFF;
+	font-family: OpenSans-Semibold;
+	padding-left: 10px;
+}
+
+.main-footer {
+	background-color: #2A5EAB;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.footer-left label {
+	font-size: 12px;
+	color: #ffffff;
+	font-family: OpenSans-Regular;
+}
+
+.footer-right label {
+	font-size: 12px;
+	color: #ffffff;
+	font-family: OpenSans-Regular;
+	float: right;
+}
+
+.main-third-left-heading label {
+	padding-left: 5px;
+}
