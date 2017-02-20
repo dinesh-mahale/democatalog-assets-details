@@ -186,14 +186,16 @@ padding-left: 100px;
 
 .third-left {
 	background-image: url("images/rectangle_contact.png");
-	height: 225px;
 	padding-top: 40px;
 	padding-right: 40px;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
+
 
 .main-third {
 	background-color: #075DAA;
-	height: 225px;
+	
 }
 
 .main-third-heading label {
